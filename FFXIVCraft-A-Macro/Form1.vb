@@ -10,7 +10,7 @@
     Private Sub btnBasicSynth_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBasicSynth.Click
 
         CheckFirst(0)
-        txtOutput.Text += "/ac ""Bearbeiten"" <me>"
+        txtOutput.Text += "/ac ""Basic Synthesis"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -19,7 +19,7 @@
     Private Sub btnStandardSynth_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStandardSynth.Click
 
         CheckFirst(15)
-        txtOutput.Text += "/ac ""Solide Bearbeitung"" <me>"
+        txtOutput.Text += "/ac ""Standard Synthesis"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
     End Sub
@@ -27,7 +27,7 @@
     Private Sub btnBasicTouch_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBasicTouch.Click
 
         CheckFirst(18)
-        txtOutput.Text += "/ac ""Veredelung"" <me>"
+        txtOutput.Text += "/ac ""Basic Touch"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
     End Sub
@@ -35,7 +35,7 @@
     Private Sub btnStandardTouch_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnStandardTouch.Click
 
         CheckFirst(32)
-        txtOutput.Text += "/ac ""Solide Veredelung"" <me>"
+        txtOutput.Text += "/ac ""Standard Touch"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
     End Sub
@@ -43,7 +43,7 @@
     Private Sub btnAdvancedTouch_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAdvancedTouch.Click
 
         CheckFirst(48)
-        txtOutput.Text += "/ac ""Höhere Veredelung"" <me>"
+        txtOutput.Text += "/ac ""Advanced Touch"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
     End Sub
@@ -101,7 +101,7 @@
     Private Sub btnMastersMend_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMastersMend.Click
 
         CheckFirst(92)
-        txtOutput.Text += "/ac ""Wiederhersetllung"" <me>"
+        txtOutput.Text += "/ac ""Master's Mend"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -110,7 +110,7 @@
     Private Sub btnMastersMend2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnMastersMend2.Click
 
         CheckFirst(160)
-        txtOutput.Text += "/ac ""Wiederhersetllung II"" <me>"
+        txtOutput.Text += "/ac ""Master's Mend II"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -119,7 +119,7 @@
     Private Sub btnSteadyHand_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSteadyHand.Click
 
         CheckFirst(22)
-        txtOutput.Text += "/ac ""Ruhige Hand"" <me>"
+        txtOutput.Text += "/ac ""Steady Hand"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(True)
 
@@ -128,7 +128,7 @@
     Private Sub btnInnerQuiet_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnInnerQuiet.Click
 
         CheckFirst(18)
-        txtOutput.Text += "/ac ""Innere Ruhe"" <me>"
+        txtOutput.Text += "/ac ""Inner Quiet"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(True)
 
@@ -137,7 +137,7 @@
     Private Sub btnObserve_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnObserve.Click
 
         CheckFirst(14)
-        txtOutput.Text += "/ac ""Beobachten"" <me>"
+        txtOutput.Text += "/ac ""Observe"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -146,7 +146,7 @@
     Private Sub btnGreatStrides_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGreatStrides.Click
 
         CheckFirst(32)
-        txtOutput.Text += "/ac ""Große Schritte"" <me>"
+        txtOutput.Text += "/ac ""Great Strides"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(True)
 
@@ -155,7 +155,7 @@
     Private Sub btnTricksOfTheTrade_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnTricksOfTheTrade.Click
 
         CheckFirst(-20)
-        txtOutput.Text += "/ac ""Kunstgriff"" <me>"
+        txtOutput.Text += "/ac ""Tricks of the Trade"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -164,7 +164,7 @@
     Private Sub btnBrandOfWater_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBrandOfWater.Click
 
         CheckFirst(15)
-        txtOutput.Text += "/ac ""Zeichen des Wassers"" <me>"
+        txtOutput.Text += "/ac ""Brand of Water"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -173,7 +173,7 @@
     Private Sub btnComfortZone_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnComfortZone.Click
 
         CheckFirst(66)
-        txtOutput.Text += "/ac ""Komfortzone"" <me>"
+        txtOutput.Text += "/ac ""Comfort Zone"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -191,7 +191,7 @@
     Private Sub btnFlawlessSynth_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnFlawlessSynth.Click
 
         CheckFirst(37)
-        txtOutput.Text += "/ac ""Makellose Bearbeitung"" <me>"
+        txtOutput.Text += "/ac ""Flawless Synthesis"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -209,7 +209,7 @@
     Private Sub btnIngenuity_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIngenuity.Click
 
         CheckFirst(24)
-        txtOutput.Text += "/ac ""Einfallsreichtum"" <me>"
+        txtOutput.Text += "/ac ""Ingenuity"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(True)
 
@@ -218,7 +218,7 @@
     Private Sub btnBrandOfFire_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBrandOfFire.Click
 
         CheckFirst(15)
-        txtOutput.Text += "/ac ""Zeichen des Feuers"" <me>"
+        txtOutput.Text += "/ac ""Brand of Fire"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -227,7 +227,7 @@
     Private Sub btnIngenuity2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnIngenuity2.Click
 
         CheckFirst(32)
-        txtOutput.Text += "/ac ""Einfallsreichtum II"" <me>"
+        txtOutput.Text += "/ac ""Ingenuity II"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(True)
 
@@ -236,7 +236,7 @@
     Private Sub btnCarefulSynth_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCarefulSynth.Click
 
         CheckFirst(0)
-        txtOutput.Text += "/ac ""Sorgfältige Bearbeitung"" <me>"
+        txtOutput.Text += "/ac ""Careful Synthesis"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -245,7 +245,7 @@
     Private Sub btnBrandOfLightning_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBrandOfLightning.Click
 
         CheckFirst(15)
-        txtOutput.Text += "/ac ""Zeichen des Blitzes"" <me>"
+        txtOutput.Text += "/ac ""Brand of Lightning"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -254,7 +254,7 @@
     Private Sub btnCarefulSynth2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCarefulSynth2.Click
 
         CheckFirst(0)
-        txtOutput.Text += "/ac ""Sorgfältige Bearbeitung II"" <me>"
+        txtOutput.Text += "/ac ""Careful Synthesis II"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -263,7 +263,7 @@
     Private Sub btnRapidSynth_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRapidSynth.Click
 
         CheckFirst(0)
-        txtOutput.Text += "/ac ""Schnelle Bearbeitung"" <me>"
+        txtOutput.Text += "/ac ""Rapid Synthesis"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -272,7 +272,7 @@
     Private Sub btnBrandOfIce_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBrandOfIce.Click
 
         CheckFirst(15)
-        txtOutput.Text += "/ac ""Zeichen des Eises"" <me>"
+        txtOutput.Text += "/ac ""Brand of Ice"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -281,7 +281,7 @@
     Private Sub btnPieceByPiece_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPieceByPiece.Click
 
         CheckFirst(15)
-        txtOutput.Text += "/ac ""Stück für Stück"" <me>"
+        txtOutput.Text += "/ac ""Piece by Piece"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -290,7 +290,7 @@
     Private Sub btnHastyTouch_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnHastyTouch.Click
 
         CheckFirst(0)
-        txtOutput.Text += "/ac ""Hastige Veredelung"" <me>"
+        txtOutput.Text += "/ac ""Hasty Touch"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -299,7 +299,7 @@
     Private Sub btnSteadyHand2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSteadyHand2.Click
 
         CheckFirst(25)
-        txtOutput.Text += "/ac ""Ruhige Hand II"" <me>"
+        txtOutput.Text += "/ac ""Steady Hand II"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(True)
 
@@ -308,7 +308,7 @@
     Private Sub btnReclaim_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnReclaim.Click
 
         CheckFirst(55)
-        txtOutput.Text += "/ac ""Reklamation"" <me>"
+        txtOutput.Text += "/ac ""Reclaim"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -317,7 +317,7 @@
     Private Sub btnRumination_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRumination.Click
 
         CheckFirst(0)
-        txtOutput.Text += "/ac ""Nachsinnen"" <me>"
+        txtOutput.Text += "/ac ""Rumination"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -326,7 +326,7 @@
     Private Sub btnBrandOfWind_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBrandOfWind.Click
 
         CheckFirst(15)
-        txtOutput.Text += "/ac ""Zeichen des Windes"" <me>"
+        txtOutput.Text += "/ac ""Brand of Wind"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -335,7 +335,7 @@
     Private Sub btnByregotsBlessing_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnByregotsBlessing.Click
 
         CheckFirst(24)
-        txtOutput.Text += "/ac ""Byregots Segen"" <me>"
+        txtOutput.Text += "/ac ""Byregot's Blessing"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -344,7 +344,7 @@
     Private Sub btnWasteNot_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnWasteNot.Click
 
         CheckFirst(56)
-        txtOutput.Text += "/ac ""Nachhaltigkeit"" <me>"
+        txtOutput.Text += "/ac ""Waste Not"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(True)
 
@@ -353,7 +353,7 @@
     Private Sub btnBrandOfEarth_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnBrandOfEarth.Click
 
         CheckFirst(15)
-        txtOutput.Text += "/ac ""Zeichen der Erde"" <me>"
+        txtOutput.Text += "/ac ""Brand of Earth"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(False)
 
@@ -362,7 +362,7 @@
     Private Sub btnWasteNot2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnWasteNot2.Click
 
         CheckFirst(98)
-        txtOutput.Text += "/ac ""Nachhaltigkeit II"" <me>"
+        txtOutput.Text += "/ac ""Waste Not II"" <me>"
         intLineIndex(tabMacro.SelectedIndex) += 1
         Wait(True)
 
